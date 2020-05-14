@@ -1,0 +1,5 @@
+{
+  "database": "order_app",
+  "host": "localhost",
+  "dialect": "postgres"
+}
