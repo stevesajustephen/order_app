@@ -1,5 +1,7 @@
 {
   "database": "order_app",
   "host": "localhost",
-  "dialect": "postgres"
+  "dialect": "postgres",
+  "username": "postgres",
+  "password": "docker"
 }

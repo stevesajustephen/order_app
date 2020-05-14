@@ -17,14 +17,15 @@ app.use("/api/users", users);
 app.use("/api/products", products);
 app.use("/api/orders", orders);
 
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`listening to port ${port}...`);
+});
+
 connection
   .sync()
   .then(() => {
     console.log("connected to db.. .....");
-    const port = process.env.PORT || 3000;
-    app.listen(port, () => {
-      console.log(`listening to port ${port}...`);
-    });
   })
   .catch((err) => {
     console.log("connection error...  ", err);

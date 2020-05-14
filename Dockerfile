@@ -1,14 +1,12 @@
 FROM node:latest
 
-LABEL Author stevesaju
-
 ENV NODE_ENV=development 
-ENV PORT=3001
+ENV PORT=3000
 
 COPY      . /var/www
 WORKDIR   /var/www
 
-RUN yarn install
+RUN       yarn install
 
 EXPOSE $PORT
 
