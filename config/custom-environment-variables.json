@@ -1,3 +1,5 @@
 {
-  "privateKey": "secret"
+  "privateKey": "secret",
+  "username": "username",
+  "password": "password"
 }
