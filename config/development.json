@@ -1,5 +1,3 @@
 {
-  "database": "order_app",
-  "host": "pg-docker",
-  "dialect": "postgres"
+  "database": "order_app"
 }
