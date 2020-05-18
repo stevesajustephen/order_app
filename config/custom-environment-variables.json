@@ -1,5 +1,5 @@
 {
   "privateKey": "secret",
-  "username": "username",
-  "password": "password"
+  "username": "POSTGRES_USER",
+  "password": "POSTGRES_PASSWORD"
 }
