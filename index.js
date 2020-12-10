@@ -12,7 +12,7 @@ app.set("views", "./views");
 
 app.use(express.json());
 app.use("/", home);
-app.use("/api/login", auth);
+// app.use("/api/login", auth);
 app.use("/api/users", users);
 app.use("/api/products", products);
 app.use("/api/orders", orders);
